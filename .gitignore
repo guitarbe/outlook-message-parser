@@ -1,0 +1,16 @@
+Python
+
+pycache/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+MacOS
+
+.DS_Store
+
+Test files
+
+*.msg
+test_data/
