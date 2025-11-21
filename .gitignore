@@ -1,16 +1,5 @@
-Python
-
-pycache/
-*.py[cod]
-*$py.class
+__pycache__/
 venv/
-.env
-
-MacOS
-
-.DS_Store
-
-Test files
-
+.msg
+.git/
 *.msg
-test_data/
