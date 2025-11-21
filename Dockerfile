@@ -4,10 +4,12 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-COPY requirements.txt
+# 第一處修正：注意最後面有一個點
+COPY requirements.txt .
 RUN pip install --upgrade pip && pip install -r requirements.txt
 
-COPY app.py
+# 第二處修正：注意最後面有一個點
+COPY app.py .
 
 ENV PORT=8080
 
